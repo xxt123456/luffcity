@@ -1,41 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1df942bc-b4d6-4c87-9f05-de142823029e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/d2cd4a8e-0885-49e4-bceb-83eac64cde54.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/d2cd4a8e-0885-49e4-bceb-83eac64cde54/storage_v2/_src_/schema/main.uQUzAA.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/luffcity.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/luffapi/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/luffapi/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/luffapi/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/luffapi/auth/auth.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/luffapi/cors.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/luffapi/migrations/0001_initial.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/luffapi/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/luffapi/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/luffapi/serializers/course.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/luffapi/serializers/teacher.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/luffapi/serializers/techno.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/luffapi/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/luffapi/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/luffapi/views/account.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/luffapi/views/course.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/luffapi/views/teacher.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/luffapi/views/techno.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/luffcity/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/luffcity/settings.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/luffcity/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/luffcity/wsgi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/manage.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/baseutils.py" afterDir="false" />
-    </list>
+    <list default="true" id="1df942bc-b4d6-4c87-9f05-de142823029e" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -132,13 +98,14 @@
         <counts>
           <entry key="cell" value="541" />
           <entry key="dummy" value="5" />
-          <entry key="py" value="7514" />
+          <entry key="py" value="7515" />
+          <entry key="txt" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="5" />
-          <entry key="Python" value="7514" />
+          <entry key="PLAIN_TEXT" value="8" />
+          <entry key="Python" value="7515" />
           <entry key="Scratch" value="541" />
         </counts>
       </usages-collector>
@@ -161,8 +128,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/luffapi/views/techno.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="314">
-              <caret line="51" column="23" lean-forward="true" selection-start-line="51" selection-start-column="23" selection-end-line="51" selection-end-column="23" />
+            <state relative-caret-position="105">
+              <caret line="40" column="51" lean-forward="true" selection-start-line="40" selection-start-column="51" selection-end-line="40" selection-end-column="51" />
               <folding>
                 <element signature="e#0#40#0" expanded="true" />
               </folding>
@@ -492,6 +459,14 @@
       <option name="presentableId" value="Default" />
       <updated>1561622812304</updated>
     </task>
+    <task id="LOCAL-00001" summary="111">
+      <created>1562747531838</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1562747531838</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TodoView">
@@ -505,14 +480,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="467" y="37" width="1492" height="917" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16969274" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16969274" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49860334" visible="true" weight="0.28863347" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49860334" visible="true" weight="0.28863347" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39923468" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -537,6 +511,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="111" />
+    <option name="LAST_COMMIT_MESSAGE" value="111" />
   </component>
   <component name="editorHistoryManager">
     <entry file="das://d2cd4a8e-0885-49e4-bceb-83eac64cde54/schema/main/table/luffapi_coursecategory" />
@@ -853,8 +831,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/luffapi/views/techno.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="314">
-          <caret line="51" column="23" lean-forward="true" selection-start-line="51" selection-start-column="23" selection-end-line="51" selection-end-column="23" />
+        <state relative-caret-position="105">
+          <caret line="40" column="51" lean-forward="true" selection-start-line="40" selection-start-column="51" selection-end-line="40" selection-end-column="51" />
           <folding>
             <element signature="e#0#40#0" expanded="true" />
           </folding>
