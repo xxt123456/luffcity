@@ -49,7 +49,6 @@ class TechnoDetailView(ViewSetMixin,APIView):
             ret['code'] = 1001
             print(2222)
             ret['error'] = '点赞失败'
-        print(ret)
         return Response(ret)
 
 
