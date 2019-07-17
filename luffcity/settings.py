@@ -129,3 +129,17 @@ REST_FRAMWORK = {
 					'DEFAULT_VERSION':'v1', # 默认版本
                     'DEFAULT_PARSER_CLASSES': ['rest_framework.parsers.JSONParser', 'rest_framework.parsers.FormParser']
 }
+
+CACHES = {
+    "default": {
+        "BACKEND": "django_redis.cache.RedisCache",
+        "LOCATION": "redis://192.168.52.76:6379",
+        "OPTIONS": {
+            "CLIENT_CLASS": "django_redis.client.DefaultClient",
+            "CONNECTION_POOL_KWARGS": {"max_connections": 100},
+            "PASSWORD": "123456",
+        }
+    }
+}
+
+SHOPPING_CAR_KEY='luff_shopping_car_%s_%s'

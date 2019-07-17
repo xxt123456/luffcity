@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1df942bc-b4d6-4c87-9f05-de142823029e" name="Default Changelist" comment="" />
+    <list default="true" id="1df942bc-b4d6-4c87-9f05-de142823029e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/luffapi/views/shopping_car.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/exception.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/luffapi/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/luffapi/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/luffapi/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/luffapi/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/luffcity/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/luffcity/settings.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -12,6 +21,7 @@
     <SUITE FILE_PATH="coverage/luffcity$tests.coverage" NAME="tests Coverage Results" MODIFIED="1562066999359" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/luffapi" />
     <SUITE FILE_PATH="coverage/luffcity$course.coverage" NAME="course Coverage Results" MODIFIED="1562066530742" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/luffapi/views" />
     <SUITE FILE_PATH="coverage/luffcity$account.coverage" NAME="account Coverage Results" MODIFIED="1562067222632" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/luffapi/views" />
+    <SUITE FILE_PATH="coverage/luffcity$test.coverage" NAME="test Coverage Results" MODIFIED="1563354309014" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -50,21 +60,23 @@
     <session id="859602691">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="6" />
+          <entry key="project.closed" value="11" />
           <entry key="project.open.time.0" value="1" />
-          <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.1" value="2" />
           <entry key="project.open.time.13" value="1" />
+          <entry key="project.open.time.19" value="1" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.20" value="1" />
-          <entry key="project.open.time.24" value="1" />
+          <entry key="project.open.time.22" value="2" />
+          <entry key="project.open.time.24" value="2" />
           <entry key="project.open.time.25" value="1" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.4" value="1" />
-          <entry key="project.open.time.6" value="2" />
-          <entry key="project.open.time.7" value="1" />
+          <entry key="project.open.time.6" value="3" />
+          <entry key="project.open.time.7" value="2" />
           <entry key="project.open.time.8" value="1" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="14" />
+          <entry key="project.opened" value="21" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -74,38 +86,41 @@
           <entry key="luffapi_article" value="9" />
           <entry key="luffapi_articlesource" value="1" />
           <entry key="luffapi_chapter" value="3" />
-          <entry key="luffapi_course" value="30" />
-          <entry key="luffapi_coursecategory" value="2" />
-          <entry key="luffapi_coursechapter" value="6" />
-          <entry key="luffapi_coursedetail" value="13" />
-          <entry key="luffapi_coursedetail_recommend_courses" value="12" />
-          <entry key="luffapi_coursedetail_teachers" value="8" />
+          <entry key="luffapi_course" value="34" />
+          <entry key="luffapi_coursecategory" value="3" />
+          <entry key="luffapi_coursechapter" value="7" />
+          <entry key="luffapi_coursedetail" value="14" />
+          <entry key="luffapi_coursedetail_recommend_courses" value="13" />
+          <entry key="luffapi_coursedetail_teachers" value="9" />
+          <entry key="luffapi_courseoutline" value="1" />
+          <entry key="luffapi_coursesection" value="1" />
           <entry key="luffapi_coursesubcategory" value="5" />
           <entry key="luffapi_oftenaskedquestion" value="1" />
-          <entry key="luffapi_teacher" value="4" />
+          <entry key="luffapi_teacher" value="5" />
+          <entry key="luffapi_userauthtoken" value="2" />
           <entry key="luffapi_userinfo" value="2" />
           <entry key="luffapi_usertoken" value="2" />
-          <entry key="py" value="65" />
+          <entry key="py" value="93" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Database Element" value="100" />
-          <entry key="Python" value="65" />
+          <entry key="Database Element" value="114" />
+          <entry key="Python" value="93" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="cell" value="541" />
           <entry key="dummy" value="5" />
-          <entry key="py" value="7515" />
+          <entry key="py" value="8936" />
           <entry key="txt" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="8" />
-          <entry key="Python" value="7515" />
+          <entry key="Python" value="8936" />
           <entry key="Scratch" value="541" />
         </counts>
       </usages-collector>
@@ -116,8 +131,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/luffapi/views/course.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="52" column="22" lean-forward="true" selection-start-line="52" selection-start-column="22" selection-end-line="52" selection-end-column="22" />
+            <state relative-caret-position="171">
+              <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
               <folding>
                 <element signature="e#0#40#0" expanded="true" />
               </folding>
@@ -126,70 +141,43 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/luffapi/views/techno.py">
+        <entry file="file://$PROJECT_DIR$/luffapi/views/shopping_car.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="40" column="51" lean-forward="true" selection-start-line="40" selection-start-column="51" selection-end-line="40" selection-end-column="51" />
+            <state relative-caret-position="258">
+              <caret line="62" column="54" selection-start-line="62" selection-start-column="45" selection-end-line="62" selection-end-column="54" />
               <folding>
                 <element signature="e#0#40#0" expanded="true" />
+                <marker date="1563354113457" expanded="true" signature="438:443" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/luffapi/serializers/techno.py">
+        <entry file="file://$PROJECT_DIR$/test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="57">
-              <caret line="3" column="22" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="22" />
-              <folding>
-                <element signature="e#0#27#0" expanded="true" />
-                <marker date="1562572330074" expanded="true" signature="121:126" ph="..." />
-              </folding>
+            <state relative-caret-position="76">
+              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/utils/baseutils.py">
+        <entry file="file://$PROJECT_DIR$/luffcity/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="8" column="28" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
-              <folding>
-                <marker date="1562653282006" expanded="true" signature="24:29" ph="..." />
-              </folding>
+            <state relative-caret-position="243">
+              <caret line="138" column="62" lean-forward="true" selection-start-line="138" selection-start-column="62" selection-end-line="138" selection-end-column="62" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/luffapi/serializers/course.py">
+        <entry file="file://$PROJECT_DIR$/utils/exception.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-line="1" selection-end-column="39" />
+            <state relative-caret-position="38">
+              <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
               <folding>
-                <element signature="e#0#27#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/luffapi/views/account.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="21" column="35" selection-start-line="21" selection-start-column="35" selection-end-line="21" selection-end-column="35" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/luffapi/models.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="6118">
-              <caret line="328" column="24" selection-start-line="328" selection-start-column="24" selection-end-line="328" selection-end-column="24" />
-              <folding>
-                <element signature="e#0#81#0" expanded="true" />
+                <marker date="1563350341519" expanded="true" signature="36:41" ph="..." />
               </folding>
             </state>
           </provider>
@@ -198,20 +186,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/luffapi/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="13" column="1" lean-forward="true" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
-              <folding>
-                <element signature="e#0#40#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/luffapi/views/teacher.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="26" selection-start-line="26" selection-end-line="26" />
+            <state relative-caret-position="266">
+              <caret line="14" column="94" selection-start-line="14" selection-start-column="94" selection-end-line="14" selection-end-column="94" />
               <folding>
                 <element signature="e#0#40#0" expanded="true" />
               </folding>
@@ -245,20 +221,24 @@
       <list>
         <option value="$PROJECT_DIR$/luffcity/urls.py" />
         <option value="$PROJECT_DIR$/luffapi/views/techon.py" />
-        <option value="$PROJECT_DIR$/luffcity/settings.py" />
         <option value="$PROJECT_DIR$/luffapi/tests.py" />
         <option value="$PROJECT_DIR$/luffapi/serializers/teacher.py" />
-        <option value="$PROJECT_DIR$/luffapi/models.py" />
         <option value="$PROJECT_DIR$/luffapi/serializers/course.py" />
         <option value="$PROJECT_DIR$/luffapi/views/account.py" />
         <option value="$PROJECT_DIR$/luffapi/auth/auth.py" />
         <option value="$PROJECT_DIR$/luffapi/serializers/techno.py" />
         <option value="$PROJECT_DIR$/utils/baseutils.py" />
         <option value="$PROJECT_DIR$/luffapi/views/teacher.py" />
-        <option value="$PROJECT_DIR$/luffapi/urls.py" />
         <option value="$PROJECT_DIR$/luffapi/cors.py" />
         <option value="$PROJECT_DIR$/luffapi/views/course.py" />
         <option value="$PROJECT_DIR$/luffapi/views/techno.py" />
+        <option value="$PROJECT_DIR$/test.py" />
+        <option value="$PROJECT_DIR$/luffapi/admin.py" />
+        <option value="$PROJECT_DIR$/luffapi/models.py" />
+        <option value="$PROJECT_DIR$/utils/exception.py" />
+        <option value="$PROJECT_DIR$/luffcity/settings.py" />
+        <option value="$PROJECT_DIR$/luffapi/urls.py" />
+        <option value="$PROJECT_DIR$/luffapi/views/shopping_car.py" />
       </list>
     </option>
   </component>
@@ -269,18 +249,19 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="467" />
-    <option name="y" value="37" />
-    <option name="width" value="1492" />
-    <option name="height" value="917" />
+    <option name="x" value="159" />
+    <option name="y" value="66" />
+    <option name="width" value="1491" />
+    <option name="height" value="914" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -297,7 +278,7 @@
               <item name="luffcity" type="b2602c69:ProjectViewProjectNode" />
               <item name="luffcity" type="462c0819:PsiDirectoryNode" />
               <item name="luffapi" type="462c0819:PsiDirectoryNode" />
-              <item name="serializers" type="462c0819:PsiDirectoryNode" />
+              <item name="auth" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="luffcity" type="b2602c69:ProjectViewProjectNode" />
@@ -305,24 +286,21 @@
               <item name="luffapi" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="luffcity" type="b2602c69:ProjectViewProjectNode" />
-              <item name="luffcity" type="462c0819:PsiDirectoryNode" />
-              <item name="luffcity" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/Edit As Language" value="GenericSQL" />
     <property name="database.console.LAST_STATE" value="false" />
-    <property name="last_opened_file_path" value="G:/BaiduNetdiskDownload/TmSccity_models" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/邮件测试脚本/邮件测试脚本" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -343,7 +321,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Django server.luffcity">
+  <component name="RunManager" selected="Python.test">
     <configuration name="account" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="luffcity" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -380,6 +358,28 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/luffapi/views/course.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="luffcity" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -439,9 +439,11 @@
       <item itemvalue="Python.course" />
       <item itemvalue="Python.tests" />
       <item itemvalue="Python.account" />
+      <item itemvalue="Python.test" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.test" />
         <item itemvalue="Python.account" />
         <item itemvalue="Python.tests" />
         <item itemvalue="Python.course" />
@@ -466,7 +468,14 @@
       <option name="project" value="LOCAL" />
       <updated>1562747531838</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="111">
+      <created>1562749436811</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1562749436811</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TodoView">
@@ -479,14 +488,14 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="467" y="37" width="1492" height="917" extended-state="0" />
+    <frame x="159" y="66" width="1491" height="914" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16969274" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23549965" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49860334" visible="true" weight="0.28863347" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49860334" visible="true" weight="0.31025642" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39923468" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -495,14 +504,14 @@
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="10" weight="0.32908162" />
-      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49930167" weight="0.32908162" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49930167" weight="0.32820514" />
       <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.50139666" side_tool="true" weight="0.29081634" />
       <window_info anchor="bottom" id="Python Console" order="13" weight="0.32908162" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="SciView" order="3" />
-      <window_info anchor="right" id="Database" order="4" sideWeight="0.49809885" weight="0.3170391" />
+      <window_info anchor="right" id="Database" order="4" sideWeight="0.49809885" visible="true" weight="0.19426975" />
       <window_info anchor="right" x="0" y="0" width="323" height="717" id="Documentation" order="5" sideWeight="0.50190115" side_tool="true" weight="0.3170391" />
     </layout>
   </component>
@@ -517,12 +526,8 @@
     <option name="LAST_COMMIT_MESSAGE" value="111" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="das://d2cd4a8e-0885-49e4-bceb-83eac64cde54/schema/main/table/luffapi_coursecategory" />
-    <entry file="das://d2cd4a8e-0885-49e4-bceb-83eac64cde54/schema/main/table/luffapi_course" />
     <entry file="das://d2cd4a8e-0885-49e4-bceb-83eac64cde54/schema/main/table/luffapi_coursesubcategory" />
-    <entry file="das://d2cd4a8e-0885-49e4-bceb-83eac64cde54/schema/main/table/luffapi_teacher" />
     <entry file="das://d2cd4a8e-0885-49e4-bceb-83eac64cde54/schema/main/table/luffapi_articlesource" />
-    <entry file="das://d2cd4a8e-0885-49e4-bceb-83eac64cde54/schema/main/table/luffapi_article" />
     <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/site-packages/rest_framework/utils/encoders.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="395">
@@ -537,204 +542,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="das://d2cd4a8e-0885-49e4-bceb-83eac64cde54/schema/main/table/luffapi_coursechapter" />
-    <entry file="das://d2cd4a8e-0885-49e4-bceb-83eac64cde54/schema/main/table/luffapi_coursedetail_recommend_courses" />
-    <entry file="das://d2cd4a8e-0885-49e4-bceb-83eac64cde54/schema/main/table/luffapi_coursedetail_teachers" />
-    <entry file="das://d2cd4a8e-0885-49e4-bceb-83eac64cde54/schema/main/table/luffapi_coursedetail" />
-    <entry file="file://$PROJECT_DIR$/luffapi/auth/auth.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="10" column="34" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/luffapi/views/account.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="21" column="35" selection-start-line="21" selection-start-column="35" selection-end-line="21" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/luffapi/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6118">
-          <caret line="328" column="24" selection-start-line="328" selection-start-column="24" selection-end-line="328" selection-end-column="24" />
-          <folding>
-            <element signature="e#0#81#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/luffapi/views/teacher.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="26" selection-start-line="26" selection-end-line="26" />
-          <folding>
-            <element signature="e#0#40#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/luffapi/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" column="1" lean-forward="true" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
-          <folding>
-            <element signature="e#0#40#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/luffapi/cors.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
           <caret line="21" column="53" selection-start-line="21" selection-start-column="53" selection-end-line="21" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/luffcity/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="51" column="32" selection-start-line="51" selection-start-column="18" selection-end-line="51" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://d2cd4a8e-0885-49e4-bceb-83eac64cde54/schema/main/table/luffapi_article">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://d2cd4a8e-0885-49e4-bceb-83eac64cde54/schema/main/table/luffapi_article">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://d2cd4a8e-0885-49e4-bceb-83eac64cde54/schema/main/table/luffapi_article">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://d2cd4a8e-0885-49e4-bceb-83eac64cde54/schema/main/table/luffapi_article">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/utils/baseutils.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="28" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
-          <folding>
-            <marker date="1562653282006" expanded="true" signature="24:29" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/luffapi/serializers/course.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="1" selection-end-column="39" />
-          <folding>
-            <element signature="e#0#27#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://d2cd4a8e-0885-49e4-bceb-83eac64cde54/schema/main/table/luffapi_article">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://d2cd4a8e-0885-49e4-bceb-83eac64cde54/schema/main/table/luffapi_article">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://d2cd4a8e-0885-49e4-bceb-83eac64cde54/schema/main/table/luffapi_article">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://d2cd4a8e-0885-49e4-bceb-83eac64cde54/schema/main/table/luffapi_article">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://d2cd4a8e-0885-49e4-bceb-83eac64cde54/schema/main/table/luffapi_article">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://d2cd4a8e-0885-49e4-bceb-83eac64cde54/schema/main/table/luffapi_article">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://d2cd4a8e-0885-49e4-bceb-83eac64cde54/schema/main/table/luffapi_article">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://d2cd4a8e-0885-49e4-bceb-83eac64cde54/schema/main/table/luffapi_article">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://d2cd4a8e-0885-49e4-bceb-83eac64cde54/schema/main/table/luffapi_article">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://d2cd4a8e-0885-49e4-bceb-83eac64cde54/schema/main/table/luffapi_article">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/luffapi/views/course.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="52" column="22" lean-forward="true" selection-start-line="52" selection-start-column="22" selection-end-line="52" selection-end-column="22" />
-          <folding>
-            <element signature="e#0#40#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/luffapi/serializers/techno.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="22" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="22" />
-          <folding>
-            <element signature="e#0#27#0" expanded="true" />
-            <marker date="1562572330074" expanded="true" signature="121:126" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -752,89 +563,253 @@
         </state>
       </provider>
     </entry>
-    <entry file="das://d2cd4a8e-0885-49e4-bceb-83eac64cde54/schema/main/table/luffapi_article">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
+    <entry file="file://$PROJECT_DIR$/luffapi/serializers/techno.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="3" column="22" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="das://d2cd4a8e-0885-49e4-bceb-83eac64cde54/schema/main/table/luffapi_article">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
+    <entry file="file://$PROJECT_DIR$/luffapi/views/account.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="21" column="35" selection-start-line="21" selection-start-column="35" selection-end-line="21" selection-end-column="35" />
         </state>
       </provider>
     </entry>
-    <entry file="das://d2cd4a8e-0885-49e4-bceb-83eac64cde54/schema/main/table/luffapi_article">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
+    <entry file="file://$PROJECT_DIR$/luffapi/views/teacher.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+          <folding>
+            <element signature="e#0#40#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="das://d2cd4a8e-0885-49e4-bceb-83eac64cde54/schema/main/table/luffapi_article">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+    <entry file="file://$PROJECT_DIR$/luffapi/serializers/course.py">
+      <provider selected="true" editor-type-id="text-editor">
         <state>
-          <filtering enabled="true" />
+          <caret selection-end-line="1" selection-end-column="39" />
+          <folding>
+            <element signature="e#0#27#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="das://d2cd4a8e-0885-49e4-bceb-83eac64cde54/schema/main/table/luffapi_article">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/site-packages/rest_framework/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-126">
+          <caret line="465" column="13" lean-forward="true" selection-start-line="465" selection-start-column="13" selection-end-line="465" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="das://d2cd4a8e-0885-49e4-bceb-83eac64cde54/schema/main/table/luffapi_article">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://d2cd4a8e-0885-49e4-bceb-83eac64cde54/schema/main/table/luffapi_article">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://d2cd4a8e-0885-49e4-bceb-83eac64cde54/schema/main/table/luffapi_article">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://d2cd4a8e-0885-49e4-bceb-83eac64cde54/schema/main/table/luffapi_article">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://d2cd4a8e-0885-49e4-bceb-83eac64cde54/schema/main/table/luffapi_article">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://d2cd4a8e-0885-49e4-bceb-83eac64cde54/schema/main/table/luffapi_article">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
+    <entry file="file://$USER_HOME$/.PyCharm2018.2/system/python_stubs/2112042139/builtins.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1144">
+          <caret line="167" column="4" selection-start-line="167" selection-start-column="4" selection-end-line="167" selection-end-column="4" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/luffapi/views/techno.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="40" column="51" lean-forward="true" selection-start-line="40" selection-start-column="51" selection-end-line="40" selection-end-column="51" />
+        <state relative-caret-position="418">
+          <caret line="28" column="6" selection-start-line="28" selection-start-column="6" selection-end-line="28" selection-end-column="6" />
           <folding>
             <element signature="e#0#40#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/site-packages/rest_framework/viewsets.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1767">
+          <caret line="104" column="30" selection-start-line="104" selection-start-column="30" selection-end-line="104" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/site-packages/rest_framework/generics.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3458">
+          <caret line="190" column="12" selection-start-line="190" selection-start-column="8" selection-end-line="190" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/baseutils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="28" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
+          <folding>
+            <marker date="1562653282006" expanded="true" signature="24:29" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/luffcity/urls.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/luffapi/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="32" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/site-packages/django/contrib/contenttypes/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="61">
+          <caret line="133" column="6" selection-start-line="133" selection-start-column="6" selection-end-line="133" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/site-packages/django/db/models/fields/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="1996" column="6" selection-start-line="1996" selection-start-column="6" selection-end-line="1996" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://d2cd4a8e-0885-49e4-bceb-83eac64cde54/schema/main/table/luffapi_coursecategory">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://d2cd4a8e-0885-49e4-bceb-83eac64cde54/schema/main/table/luffapi_coursechapter">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://d2cd4a8e-0885-49e4-bceb-83eac64cde54/schema/main/table/luffapi_teacher">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://d2cd4a8e-0885-49e4-bceb-83eac64cde54/schema/main/table/luffapi_userauthtoken">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://d2cd4a8e-0885-49e4-bceb-83eac64cde54/schema/main/table/luffapi_coursesection">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://d2cd4a8e-0885-49e4-bceb-83eac64cde54/schema/main/table/luffapi_courseoutline">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://d2cd4a8e-0885-49e4-bceb-83eac64cde54/schema/main/table/luffapi_coursedetail_teachers">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://d2cd4a8e-0885-49e4-bceb-83eac64cde54/schema/main/table/luffapi_coursedetail_recommend_courses">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://d2cd4a8e-0885-49e4-bceb-83eac64cde54/schema/main/table/luffapi_coursedetail">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://d2cd4a8e-0885-49e4-bceb-83eac64cde54/schema/main/table/luffapi_course">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/luffapi/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="311">
+          <caret line="295" column="37" selection-start-line="295" selection-start-column="34" selection-end-line="295" selection-end-column="37" />
+          <folding>
+            <element signature="e#0#81#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/exception.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
+          <folding>
+            <marker date="1563350341519" expanded="true" signature="36:41" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/luffapi/auth/auth.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="10" column="29" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/luffapi/views/course.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+          <folding>
+            <element signature="e#0#40#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/luffapi/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="94" selection-start-line="14" selection-start-column="94" selection-end-line="14" selection-end-column="94" />
+          <folding>
+            <element signature="e#0#40#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/luffcity/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="138" column="62" lean-forward="true" selection-start-line="138" selection-start-column="62" selection-end-line="138" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/luffapi/views/shopping_car.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="258">
+          <caret line="62" column="54" selection-start-line="62" selection-start-column="45" selection-end-line="62" selection-end-column="54" />
+          <folding>
+            <element signature="e#0#40#0" expanded="true" />
+            <marker date="1563354113457" expanded="true" signature="438:443" ph="..." />
           </folding>
         </state>
       </provider>
