@@ -2,14 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1df942bc-b4d6-4c87-9f05-de142823029e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/luffapi/views/shopping_car.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/exception.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/luffapi/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/luffapi/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/luffapi/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/luffapi/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/luffapi/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/luffapi/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/luffcity/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/luffcity/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/luffapi/views/shopping_car.py" beforeDir="false" afterPath="$PROJECT_DIR$/luffapi/views/shopping_car.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -21,7 +18,7 @@
     <SUITE FILE_PATH="coverage/luffcity$tests.coverage" NAME="tests Coverage Results" MODIFIED="1562066999359" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/luffapi" />
     <SUITE FILE_PATH="coverage/luffcity$course.coverage" NAME="course Coverage Results" MODIFIED="1562066530742" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/luffapi/views" />
     <SUITE FILE_PATH="coverage/luffcity$account.coverage" NAME="account Coverage Results" MODIFIED="1562067222632" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/luffapi/views" />
-    <SUITE FILE_PATH="coverage/luffcity$test.coverage" NAME="test Coverage Results" MODIFIED="1563354309014" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/luffcity$test.coverage" NAME="test Coverage Results" MODIFIED="1563416961554" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -64,19 +61,20 @@
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="2" />
           <entry key="project.open.time.13" value="1" />
-          <entry key="project.open.time.19" value="1" />
+          <entry key="project.open.time.19" value="2" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.20" value="1" />
           <entry key="project.open.time.22" value="2" />
+          <entry key="project.open.time.23" value="1" />
           <entry key="project.open.time.24" value="2" />
-          <entry key="project.open.time.25" value="1" />
+          <entry key="project.open.time.25" value="2" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.6" value="3" />
           <entry key="project.open.time.7" value="2" />
           <entry key="project.open.time.8" value="1" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="21" />
+          <entry key="project.opened" value="24" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -100,27 +98,27 @@
           <entry key="luffapi_userauthtoken" value="2" />
           <entry key="luffapi_userinfo" value="2" />
           <entry key="luffapi_usertoken" value="2" />
-          <entry key="py" value="93" />
+          <entry key="py" value="94" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Database Element" value="114" />
-          <entry key="Python" value="93" />
+          <entry key="Python" value="94" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="cell" value="541" />
           <entry key="dummy" value="5" />
-          <entry key="py" value="8936" />
-          <entry key="txt" value="3" />
+          <entry key="py" value="9858" />
+          <entry key="txt" value="16" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="8" />
-          <entry key="Python" value="8936" />
+          <entry key="PLAIN_TEXT" value="21" />
+          <entry key="Python" value="9858" />
           <entry key="Scratch" value="541" />
         </counts>
       </usages-collector>
@@ -132,7 +130,7 @@
         <entry file="file://$PROJECT_DIR$/luffapi/views/course.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="171">
-              <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+              <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
               <folding>
                 <element signature="e#0#40#0" expanded="true" />
               </folding>
@@ -140,14 +138,31 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/luffapi/views/shopping_car.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="258">
-              <caret line="62" column="54" selection-start-line="62" selection-start-column="45" selection-end-line="62" selection-end-column="54" />
+            <state relative-caret-position="238">
+              <caret line="100" column="11" lean-forward="true" selection-start-line="100" selection-start-column="11" selection-end-line="100" selection-end-column="11" />
               <folding>
                 <element signature="e#0#40#0" expanded="true" />
-                <marker date="1563354113457" expanded="true" signature="438:443" ph="..." />
+                <element signature="e#561#1844#0" />
+                <element signature="e#1899#2384#0" />
+                <element signature="e#2438#3287#0" />
+                <element signature="e#3343#3456#2" />
+                <element signature="e#3505#4236#0" />
+                <marker date="1563418416690" expanded="true" signature="425:430" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/luffapi/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="433">
+              <caret line="469" lean-forward="true" selection-start-line="469" selection-end-line="469" />
+              <folding>
+                <element signature="e#0#81#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -157,7 +172,7 @@
         <entry file="file://$PROJECT_DIR$/test.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="76">
-              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+              <caret line="4" selection-start-line="4" selection-end-line="4" />
             </state>
           </provider>
         </entry>
@@ -165,8 +180,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/luffcity/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="243">
-              <caret line="138" column="62" lean-forward="true" selection-start-line="138" selection-start-column="62" selection-end-line="138" selection-end-column="62" />
+            <state relative-caret-position="2622">
+              <caret line="138" column="62" selection-start-line="138" selection-start-column="62" selection-end-line="138" selection-end-column="62" />
             </state>
           </provider>
         </entry>
@@ -187,7 +202,7 @@
         <entry file="file://$PROJECT_DIR$/luffapi/urls.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="266">
-              <caret line="14" column="94" selection-start-line="14" selection-start-column="94" selection-end-line="14" selection-end-column="94" />
+              <caret line="14" column="43" selection-start-line="14" selection-start-column="43" selection-end-line="14" selection-end-column="43" />
               <folding>
                 <element signature="e#0#40#0" expanded="true" />
               </folding>
@@ -232,13 +247,13 @@
         <option value="$PROJECT_DIR$/luffapi/cors.py" />
         <option value="$PROJECT_DIR$/luffapi/views/course.py" />
         <option value="$PROJECT_DIR$/luffapi/views/techno.py" />
-        <option value="$PROJECT_DIR$/test.py" />
         <option value="$PROJECT_DIR$/luffapi/admin.py" />
-        <option value="$PROJECT_DIR$/luffapi/models.py" />
         <option value="$PROJECT_DIR$/utils/exception.py" />
         <option value="$PROJECT_DIR$/luffcity/settings.py" />
         <option value="$PROJECT_DIR$/luffapi/urls.py" />
+        <option value="$PROJECT_DIR$/test.py" />
         <option value="$PROJECT_DIR$/luffapi/views/shopping_car.py" />
+        <option value="$PROJECT_DIR$/luffapi/models.py" />
       </list>
     </option>
   </component>
@@ -248,9 +263,9 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="159" />
-    <option name="y" value="66" />
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="110" />
+    <option name="y" value="82" />
     <option name="width" value="1491" />
     <option name="height" value="914" />
   </component>
@@ -262,6 +277,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -290,7 +306,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -321,7 +336,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.test">
+  <component name="RunManager" selected="Django server.luffcity">
     <configuration name="account" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="luffcity" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -475,7 +490,14 @@
       <option name="project" value="LOCAL" />
       <updated>1562749436811</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="提交购物车新增、删除">
+      <created>1563354407148</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1563354407148</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TodoView">
@@ -488,14 +510,15 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="159" y="66" width="1491" height="914" extended-state="0" />
+    <frame x="110" y="82" width="1491" height="914" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23549965" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1684137" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49860334" visible="true" weight="0.31025642" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49860334" weight="0.31025642" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39923468" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -504,14 +527,14 @@
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="10" weight="0.32908162" />
-      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49930167" weight="0.32820514" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" sideWeight="0.49930167" visible="true" weight="0.32820514" />
       <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.50139666" side_tool="true" weight="0.29081634" />
       <window_info anchor="bottom" id="Python Console" order="13" weight="0.32908162" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="SciView" order="3" />
-      <window_info anchor="right" id="Database" order="4" sideWeight="0.49809885" visible="true" weight="0.19426975" />
+      <window_info anchor="right" id="Database" order="4" sideWeight="0.49809885" weight="0.19426975" />
       <window_info anchor="right" x="0" y="0" width="323" height="717" id="Documentation" order="5" sideWeight="0.50190115" side_tool="true" weight="0.3170391" />
     </layout>
   </component>
@@ -523,7 +546,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="111" />
-    <option name="LAST_COMMIT_MESSAGE" value="111" />
+    <MESSAGE value="提交购物车新增、删除" />
+    <option name="LAST_COMMIT_MESSAGE" value="提交购物车新增、删除" />
   </component>
   <component name="editorHistoryManager">
     <entry file="das://d2cd4a8e-0885-49e4-bceb-83eac64cde54/schema/main/table/luffapi_coursesubcategory" />
@@ -581,9 +605,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="399">
           <caret line="26" selection-start-line="26" selection-end-line="26" />
-          <folding>
-            <element signature="e#0#40#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -591,9 +612,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret selection-end-line="1" selection-end-column="39" />
-          <folding>
-            <element signature="e#0#27#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -615,9 +633,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="418">
           <caret line="28" column="6" selection-start-line="28" selection-start-column="6" selection-end-line="28" selection-end-column="6" />
-          <folding>
-            <element signature="e#0#40#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -652,9 +667,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
           <caret line="15" column="32" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -742,13 +754,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/luffapi/models.py">
+    <entry file="file://$PROJECT_DIR$/luffapi/auth/auth.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="311">
-          <caret line="295" column="37" selection-start-line="295" selection-start-column="34" selection-end-line="295" selection-end-column="37" />
+        <state relative-caret-position="152">
+          <caret line="10" column="29" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/luffapi/views/course.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
           <folding>
-            <element signature="e#0#81#0" expanded="true" />
+            <element signature="e#0#40#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/luffcity/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2622">
+          <caret line="138" column="62" selection-start-line="138" selection-start-column="62" selection-end-line="138" selection-end-column="62" />
         </state>
       </provider>
     </entry>
@@ -762,54 +795,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/luffapi/auth/auth.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="10" column="29" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/luffapi/views/course.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
-          <folding>
-            <element signature="e#0#40#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/luffapi/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="266">
-          <caret line="14" column="94" selection-start-line="14" selection-start-column="94" selection-end-line="14" selection-end-column="94" />
+          <caret line="14" column="43" selection-start-line="14" selection-start-column="43" selection-end-line="14" selection-end-column="43" />
           <folding>
             <element signature="e#0#40#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/luffcity/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="138" column="62" lean-forward="true" selection-start-line="138" selection-start-column="62" selection-end-line="138" selection-end-column="62" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/luffapi/views/shopping_car.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="258">
-          <caret line="62" column="54" selection-start-line="62" selection-start-column="45" selection-end-line="62" selection-end-column="54" />
+        <state relative-caret-position="238">
+          <caret line="100" column="11" lean-forward="true" selection-start-line="100" selection-start-column="11" selection-end-line="100" selection-end-column="11" />
           <folding>
             <element signature="e#0#40#0" expanded="true" />
-            <marker date="1563354113457" expanded="true" signature="438:443" ph="..." />
+            <element signature="e#561#1844#0" />
+            <element signature="e#1899#2384#0" />
+            <element signature="e#2438#3287#0" />
+            <element signature="e#3343#3456#2" />
+            <element signature="e#3505#4236#0" />
+            <marker date="1563418416690" expanded="true" signature="425:430" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/luffapi/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="433">
+          <caret line="469" lean-forward="true" selection-start-line="469" selection-end-line="469" />
+          <folding>
+            <element signature="e#0#81#0" expanded="true" />
           </folding>
         </state>
       </provider>

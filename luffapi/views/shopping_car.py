@@ -10,7 +10,7 @@ from django.conf import settings
 import json
 
 
-class ShoppingCarView(ViewSetMixin,APIView):
+class ShoppingCarView(APIView):
     authentication_classes = [LuffAuth,]
     conn = get_redis_connection('default')
     def post(self,request,*args,**kwargs):
@@ -67,5 +67,57 @@ class ShoppingCarView(ViewSetMixin,APIView):
             ret.code=1001
             ret.error='删除失败'
         return Response(ret.dict)
-        # try:
-        #     course_id_list=request.data.get
+
+    def patch(self,request,*args,**kwargs):
+        ret = BaseUtils()
+        try:
+            course_id=request.data.get('courseid')
+            policy_id=request.data.get('policyid')
+            key=settings.SHOPPING_CAR_KEY %(request.auth.user_id,course_id)
+            if not self.conn.exists(key):
+                ret.code=1001
+                ret.error='购物车不存在此课程'
+                return Response(ret.dict)
+            # policy_dict=json.loads(str(self.conn.hget(key,'policy'),encoding='utf-8'))
+            policy_dict=json.loads(self.conn.hget(key,'policy').decode('utf-8'))
+            if policy_id not in policy_dict:
+                ret.code=1002
+                ret.error='价格策略不合法'
+            self.conn.hset(key,'default_policy',policy_id)
+            ret.data='修改成功'
+
+        except Exception as e:
+            ret.code=1004
+            ret.error='修改失败'
+        return Response(ret.dict)
+
+    def get(self,request,*args,**kwargs):
+        """
+        展示购物车
+        :param request:
+        :param args:
+        :param kwargs:
+        :return:
+        """
+        ret = BaseUtils()
+        try:
+            key_macth=settings.SHOPPING_CAR_KEY %(request.auth.user_id,"*")
+            print(key_macth)
+            course_list=[]
+            for key in self.conn.scan_iter(key_macth,count=10):
+                # print(self.conn.hget(key,'title'))
+                info = {
+                    'title':self.conn.hget(key,'title').decode('utf-8'),
+                    'img':self.conn.hget(key,'img').decode('utf-8'),
+                    'policy':json.loads(self.conn.hget(key,'policy').decode('utf-8')),
+                    'default_policy':self.conn.hget(key,'default_policy').decode('utf-8')
+                }
+                print(info)
+                course_list.append(info)
+            print(course_list)
+            ret.data=course_list
+
+        except Exception as e :
+            ret.code=1001
+            ret.error='获取课程失败'
+        return Response(ret.dict)

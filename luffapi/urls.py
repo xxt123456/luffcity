@@ -12,5 +12,5 @@ urlpatterns=[
     url(r'techno/(?P<pk>\d+)/$',techno.TechnoDetailView.as_view({'post':'post'})),
     url(r'techno/$',techno.TechnoView.as_view()),
     url(r'teacher/$',teacher.TeacherView.as_view({'get': 'list',})),
-    url(r'shoppingcar/$',shopping_car.ShoppingCarView.as_view({'post': 'post','delete':'delete'})),
+    url(r'shoppingcar/$',shopping_car.ShoppingCarView.as_view()),
 ]
